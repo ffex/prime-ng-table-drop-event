@@ -26,7 +26,8 @@
 </p-card>
 
 <p-card header="Logs - Delivery List" [style]="{'width': '75rem', 'margin-bottom': '2em'}">
-    <p *ngFor="let value of logs" [ngClass]="{'success-color':value.includes('SUCCESS'),'failed-color':value.includes('FAILED')}">
-      {{value}}
-    </p>
+  <p *ngFor="let value of logs"
+    [ngClass]="{'success-color':value.includes('SUCCESS'),'failed-color':value.includes('FAILED')}">
+    {{value}}
+  </p>
 </p-card>
