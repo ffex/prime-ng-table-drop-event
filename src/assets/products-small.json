@@ -1,29 +1,6 @@
 {
 	"data": [
-		{
-			"id": "1000",
-			"code": "f230fh0g3",
-			"name": "Bamboo Watch",
-			"description": "Product Description",
-			"image": "bamboo-watch.jpg",
-			"price": 65,
-			"category": "Accessories",
-			"quantity": 24,
-			"inventoryStatus": "INSTOCK",
-			"rating": 5
-		},
-		{
-			"id": "1001",
-			"code": "nvklal433",
-			"name": "Black Watch",
-			"description": "Product Description",
-			"image": "black-watch.jpg",
-			"price": 72,
-			"category": "Accessories",
-			"quantity": 61,
-			"inventoryStatus": "INSTOCK",
-			"rating": 4
-		},
+
 		{
 			"id": "1002",
 			"code": "zz21cz3c1",
@@ -34,6 +11,8 @@
 			"category": "Fitness",
 			"quantity": 2,
 			"inventoryStatus": "LOWSTOCK",
+			"deliveryStatusCode": 50,
+			"deliveryStatus": "Delivered",
 			"rating": 3
 		},
 		{
@@ -46,6 +25,8 @@
 			"category": "Clothing",
 			"quantity": 25,
 			"inventoryStatus": "INSTOCK",
+			"deliveryStatusCode": 50,
+			"deliveryStatus": "Delivered",
 			"rating": 5
 		},
 		{
@@ -58,6 +39,8 @@
 			"category": "Accessories",
 			"quantity": 73,
 			"inventoryStatus": "INSTOCK",
+			"deliveryStatusCode": 40,
+			"deliveryStatus": "Out of Delivery",
 			"rating": 4
 		},
 		{
@@ -70,6 +53,8 @@
 			"category": "Accessories",
 			"quantity": 0,
 			"inventoryStatus": "OUTOFSTOCK",
+			"deliveryStatusCode": 40,
+			"deliveryStatus": "Out of Delivery",
 			"rating": 4
 		},
 		{
@@ -82,6 +67,8 @@
 			"category": "Accessories",
 			"quantity": 5,
 			"inventoryStatus": "LOWSTOCK",
+			"deliveryStatusCode": 40,
+			"deliveryStatus": "Out of Delivery",
 			"rating": 3
 		},
 		{
@@ -94,6 +81,8 @@
 			"category": "Accessories",
 			"quantity": 23,
 			"inventoryStatus": "INSTOCK",
+			"deliveryStatusCode": 40,
+			"deliveryStatus": "Out of Delivery",
 			"rating": 5
 		},
 		{
@@ -106,6 +95,8 @@
 			"category": "Electronics",
 			"quantity": 2,
 			"inventoryStatus": "LOWSTOCK",
+			"deliveryStatusCode": 40,
+			"deliveryStatus": "Out of Delivery",
 			"rating": 4
 		},
 		{
@@ -118,7 +109,37 @@
 			"category": "Electronics",
 			"quantity": 63,
 			"inventoryStatus": "INSTOCK",
+			"deliveryStatusCode": 40,
+			"deliveryStatus": "Out of Delivery",
 			"rating": 3
+		},
+		{
+			"id": "1000",
+			"code": "f230fh0g3",
+			"name": "Bamboo Watch",
+			"description": "Product Description",
+			"image": "bamboo-watch.jpg",
+			"price": 65,
+			"category": "Accessories",
+			"quantity": 24,
+			"inventoryStatus": "INSTOCK",
+			"deliveryStatusCode": 50,
+			"deliveryStatus": "Delivered",
+			"rating": 5
+		},
+		{
+			"id": "1001",
+			"code": "nvklal433",
+			"name": "Black Watch",
+			"description": "Product Description",
+			"image": "black-watch.jpg",
+			"price": 72,
+			"category": "Accessories",
+			"quantity": 61,
+			"inventoryStatus": "INSTOCK",
+			"deliveryStatusCode": 50,
+			"deliveryStatus": "Delivered",
+			"rating": 4
 		}
 	]
 }

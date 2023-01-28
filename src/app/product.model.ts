@@ -6,6 +6,8 @@ export interface Product {
     price?:number;
     quantity?:number;
     inventoryStatus?:string;
+    deliveryStatusCode?: number,
+    deliveryStatus?:string,
     category?:string;
     image?:string;
     rating?:number;

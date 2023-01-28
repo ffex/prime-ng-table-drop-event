@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import {TableModule} from 'primeng/table';
 import { AppComponent } from './app.component';
 import {CardModule} from 'primeng/card';
+import { ReordableRowDrop } from './reordable-row-drop.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReordableRowDrop
   ],
   imports: [
     BrowserModule,
