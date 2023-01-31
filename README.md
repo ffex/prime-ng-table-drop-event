@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. You can use this in a Angular with PrimeNg project.
 2. The only file you need is [reordable-row-drop.directive.ts](reordable-row-drop.directive.ts), copy that in your angular project.
     - NOTE: Add it in the module declarations
-3. replace the PrimeNg default `[pReorderableRow]="index"` with the custom one:
+3. replace the PrimeNg default `[pReorderableRow]="index"` with the custom one `[pReordableRowDrop]="index" (dropRow)="onDropRow($event)"`. Example:
 ```
   <p-table [value]="products" [columns]="cols" [reorderableColumns]="true" [tableStyle]="{'min-width': '50rem'}">
     <ng-template pTemplate="header" let-columns>
@@ -35,7 +35,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     </ng-template>
   </p-table>
 ```
-
+4. Implement the event call:
+```
+  onDropRow(e: any): void {
+    if (contidito) {
+      e.sender.acceptDrop();
+    } else {
+      e.sender.rejectDrop();
+    }
+  }
+```
+5. Now you have the power over the row reorder :star_struck:
+  - **IMPORTANT**: Use always or `e.sender.acceptDrop()` or `e.sender.rejectDrop()` in the event or the software will crash.
 ## How to test the example
 ### Development server
 
