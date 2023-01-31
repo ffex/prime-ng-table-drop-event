@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How to use in your Project
 1. You can use this in a Angular with PrimeNg project.
-2. The only file you need is [reordable-row-drop.directive.ts](reordable-row-drop.directive.ts), copy that in your angular project.
+2. The only file you need is [reordable-row-drop.directive.ts](src/app/reordable-row-drop.directive.ts), copy that in your angular project.
     - NOTE: Add it in the module declarations
 3. replace the PrimeNg default `[pReorderableRow]="index"` with the custom one `[pReordableRowDrop]="index" (dropRow)="onDropRow($event)"`. Example:
 ```
